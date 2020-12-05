@@ -170,3 +170,20 @@ header nav ul li a:hover{
  .header_top ul{
      width: 100%;
  }
+
+ .clients{
+     font-weight: 100 !important;
+ }
+ #client>div .col-md-6 h1{
+     font-weight: 900;
+     position: relative;
+    }
+ #client>div .col-md-6 h1::after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    left: 0;
+    bottom: -15px;
+ }
