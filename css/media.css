@@ -17,6 +17,7 @@
         width: 100% !important;
         height: 360px !important;
     }
+
 }
 @media screen and (max-width:768px){
     .activities .container>div{

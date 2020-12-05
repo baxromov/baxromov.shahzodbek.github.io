@@ -80,7 +80,8 @@ header nav ul li a:hover{
 .activities .container .row .col-md-6 div p{
     font-size: 30px;
 }
-.activities .container .row .col-md-6 button{
+.activities .container .row .col-md-6 button,
+.address button{
     border: 1px solid #818181;
     border-radius: 20px;
     background: white;
@@ -197,4 +198,13 @@ header nav ul li a:hover{
  .address .container> h1{
      font-weight: 100;
      font-size: 40px;
+ }
+ .address .form-control{
+     background: transparent !important;
+     border: none;
+     border-bottom: 1px solid grey ;
+     margin: 10px auto;
+     outline: none !important;
+     border-radius: 0px;
+     width: 80%;
  }
