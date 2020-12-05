@@ -163,8 +163,10 @@ header nav ul li a:hover{
       background: none;
       font-size: 80px;
   }
-@media screen and (max-width:762px){
-    .main-carousel{
-        
-    }
-}
+  #client>div img{
+    width: 266px;
+    height: 140px;      
+  }
+ .header_top ul{
+     width: 100%;
+ }

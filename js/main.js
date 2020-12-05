@@ -1,5 +1,25 @@
 var owl = $('#owl-carousels');
 var team = $('#team-carousel');
+var client = $('#client');
+client.owlCarousel({
+  loop:true,
+  autoplay:true,
+  items:3,
+  nav:true,
+  dots:true,
+  margin:10,
+  responsive:{
+    0 : {
+      items:1,
+    },
+    480 : {
+      items:1,
+    },
+    768 : {
+      items:2,
+    }
+  }
+})
 owl.owlCarousel({
   loop: true,
   autoplay: true,
