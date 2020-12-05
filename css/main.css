@@ -187,3 +187,14 @@ header nav ul li a:hover{
     left: 0;
     bottom: -15px;
  }
+ .address{
+     background-image: url('../img/8.jpg');
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+ }
+ .address .container> h1{
+     font-weight: 100;
+     font-size: 40px;
+ }
