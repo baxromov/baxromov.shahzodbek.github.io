@@ -81,7 +81,8 @@ header nav ul li a:hover{
     font-size: 30px;
 }
 .activities .container .row .col-md-6 button,
-.address button{
+.address button,
+.aboutus button{
     border: 1px solid #818181;
     border-radius: 20px;
     background: white;
@@ -208,3 +209,64 @@ header nav ul li a:hover{
      border-radius: 0px;
      width: 80%;
  }
+ .aboutus{
+     margin-top: 8em;
+ }
+ .aboutus .container h1{
+     font-size: 3.75em;
+     font-weight: 100;
+     margin-bottom: 1em;
+ }
+ .aboutus .container .row .col-md-6 .line{
+     position: relative;
+ }
+ .aboutus .container .row .col-md-6 .line::after{
+     position: absolute;
+     content: '';
+     width: 100px;
+     height: 3px;
+     left: 0;
+     bottom: -3px;
+     background: black;
+ }
+ .counter {
+    padding: 20px 0;
+    border-radius: 5px;
+    transition: 1s;
+}
+.counter:hover{
+    background-color:#FFE1BD;
+}
+.count-title {
+    position: relative;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-title::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: black;
+    bottom: -5px;
+    left: calc(50% - 25px);
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
