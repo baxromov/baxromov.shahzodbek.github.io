@@ -212,7 +212,8 @@ header nav ul li a:hover{
  .aboutus{
      margin-top: 8em;
  }
- .aboutus .container h1{
+ .aboutus .container h1,
+ .instagram .container h1{
      font-size: 3.75em;
      font-weight: 100;
      margin-bottom: 1em;
