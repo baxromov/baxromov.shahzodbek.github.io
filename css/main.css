@@ -82,7 +82,8 @@ header nav ul li a:hover{
 }
 .activities .container .row .col-md-6 button,
 .address button,
-.aboutus button{
+.aboutus button,
+.price button{
     border: 1px solid #818181;
     border-radius: 20px;
     background: white;
@@ -209,8 +210,10 @@ header nav ul li a:hover{
      border-radius: 0px;
      width: 80%;
  }
- .aboutus{
-     margin-top: 8em;
+ .aboutus,
+ .activities1,
+ .works{
+     margin-top: 8em !important;
  }
  .aboutus .container h1,
  .instagram .container h1{
@@ -270,4 +273,16 @@ header nav ul li a:hover{
     float: none;
     display: table;
     color: #4ad1e5;
+}
+.price{
+    background: black;
+}
+.price button{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+.price p{
+    font-size: 2em;
+    color: white;
 }
