@@ -2,6 +2,15 @@ var owl = $('#owl-carousels');
 var team = $('#team-carousel');
 var client = $('#client');
 var instagram = $('#instagram')
+var works = $('#works')
+works.owlCarousel({
+	loop:true,
+	autoplay:true,
+	items:1,
+	nav:true,
+	center:true,
+	dots:true,
+})
 instagram.owlCarousel({
   loop:true,
   autoplay:true,
